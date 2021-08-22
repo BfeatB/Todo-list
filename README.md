@@ -1,2 +1,2 @@
 # Todo-list
-A simple webapp to practice javascript
+A simple webapp to practice JavaScript

@@ -1,0 +1,4 @@
+.tasks__input {
+    padding: 5px;
+    min-width: calc(100% - 65px);
+}

@@ -1,0 +1,25 @@
+@import url(../vendor/normalize.css);
+
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__title/header__title.css);
+
+@import url(../blocks/main/main.css);
+
+@import url(../blocks/tasks/tasks.css);
+@import url(../blocks/tasks/__title/tasks__title.css);
+@import url(../blocks/tasks/__list/tasks__list.css);
+@import url(../blocks/tasks/__item/tasks__item.css);
+@import url(../blocks/tasks/__text/tasks__text.css);
+@import url(../blocks/tasks/__checkbox/tasks__checkbox.css);
+@import url(../blocks/tasks/__delete-button/tasks__delete-button.css);
+@import url(../blocks/tasks/__edit-button/tasks__edit-button.css);
+@import url(../blocks/tasks/__form/tasks__form.css);
+@import url(../blocks/tasks/__input/tasks__input.css);
+@import url(../blocks/tasks/__submit-button/tasks__submit-button.css);
+
+
+@import url(../blocks/footer/footer.css);
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./pages/index.css">
+  <link rel="stylesheet" href="./vendor/normalize.css">
+  <title>Todo List</title>
+</head>
+<body class="page">
+
+  <header class="header">
+   <a href="#"><img class="header__logo" src="./images/todocheck-logo-1-removebg-preview.png" alt="логотип"></a>
+   <h1 class="header__title">Todo List</h1>
+  </header>
+
+  <main class="main">
+
+    <section class="tasks">
+      <h2 class="tasks__title">What do I have to do today?</h2>
+      <form class="tasks__form">
+        <input class="tasks__input" name="new-task" placeholder="Write a new task here...">
+        <button class="tasks__submit-button" type="submit">Add</button>
+      </form>
+      <ul class="tasks__list">
+      </ul>
+    </section>
+  
+    
+    <template class ="tasks__template">
+      <li class ="tasks__item">
+        <input type="checkbox" class="tasks__checkbox">
+        <input type="text" class ="tasks__text" readonly value="" placeholder="write your task here">
+        <button type="button" class="tasks__delete-button"></button>
+        <button type="button" class="tasks__edit-button"></button>
+      </li>
+    </template>
+      
+
+
+  </main>
+
+  <footer class="footer">
+    
+  </footer>
+<script src="index.js"></script>
+</body>
+</html>

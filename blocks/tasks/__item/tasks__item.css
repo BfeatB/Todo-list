@@ -1,0 +1,12 @@
+.tasks__item {
+    margin: 20px 0;
+    padding: 8px 12px;
+    width: 300px;
+    overflow: hidden;
+    background-color: #2D303F;
+    border-radius: 20px;
+    box-shadow: #2D303F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

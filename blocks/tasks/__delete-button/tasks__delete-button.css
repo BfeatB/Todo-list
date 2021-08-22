@@ -1,0 +1,11 @@
+.tasks__delete-button {
+    background-image: url("../../../images/bin.png");
+    width: 14px;
+    height: 14px;
+    background-position: center;
+    background-size: contain;
+    background-color: transparent;
+    padding: 0;
+    border: transparent;
+    margin-left: 6px;
+}

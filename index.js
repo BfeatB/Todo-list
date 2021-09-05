@@ -29,6 +29,7 @@ function itemClone() {
         } 
         else {
           ElementText.focus();
+
         }
       });
 
@@ -41,6 +42,12 @@ function formSubmitAddCardHandler(evt) {
     container.append(itemClone());
     form.reset();
 }
+
+function onKeydownEnter(evt) {
+  document.addEventListener(keydown = "enter", () =>
+  evt.target.addAttribute("readonly"))
+}
+
 
 submitButton.addEventListener("click", formSubmitAddCardHandler);
 
